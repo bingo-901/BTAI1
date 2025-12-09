@@ -1,0 +1,84 @@
+Experiment 1: MetaMask Wallet Setup and Transaction on Test Network
+Aim
+
+To install and configure MetaMask, create multiple accounts on a test network, and perform Ether transfer between accounts.
+
+Tools Required
+
+Web Browser (Firefox / Chrome)
+
+MetaMask Extension
+
+Sepolia / Linea Sepolia Test Network
+
+Test Ether Faucet
+
+Internet Connection
+
+Procedure
+Step 1: Install MetaMask
+
+Open the browser and install the MetaMask extension.
+
+Click Create a Wallet.
+
+Set a password and agree to the terms and conditions.
+
+Securely save the Secret Recovery Phrase.
+
+Step 2: Enable Test Network
+
+Open MetaMask.
+
+Enable Show Test Networks.
+
+Select Sepolia Test Network (or Linea Sepolia).
+
+Step 3: Get Test Ether
+
+Open a new tab and search “Sepolia Faucet”.
+
+Sign in using GitHub or email.
+
+Copy your MetaMask wallet address.
+
+Paste the address in the faucet to receive test ETH.
+
+Verify that the balance is updated in MetaMask.
+
+Step 4: Create Multiple Accounts
+
+Click Account → Create Account in MetaMask.
+
+Create at least one additional account.
+
+Each account gets a unique Ethereum address.
+
+Step 5: Transfer Ether Between Accounts
+
+Select the first account.
+
+Click Send and enter the second account’s address.
+
+Enter the amount of ETH and confirm the transaction.
+
+Wait for confirmation.
+
+Transaction Specifications
+
+From Address: Sender account address
+
+To Address: Receiver account address
+
+Value: Amount of ETH sent
+
+Gas Fee: Paid in ETH (minimal in test network)
+
+Transaction Hash: Unique identifier for the transaction
+
+Status: Pending / Confirmed
+
+Result
+
+Ether was successfully transferred between MetaMask test network accounts and the transaction details were verified on the blockchain explorer.
+
