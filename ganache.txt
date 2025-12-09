@@ -1,0 +1,89 @@
+Experiment 2: Ganache Setup and Custom RPC Network Configuration
+Aim
+
+To configure Ganache, create a custom RPC network in MetaMask, connect it with Ganache, and transfer Ether between Ganache accounts.
+
+Tools Required
+
+Ganache (Desktop)
+
+MetaMask Extension
+
+Web Browser
+
+Remix IDE (optional)
+
+Procedure
+Step 1: Start Ganache
+
+Open Ganache.
+
+Click Quickstart (Ethereum).
+
+Ganache generates:
+
+Local blockchain
+
+Multiple accounts
+
+Preloaded Ether balances
+
+Step 2: Configure Custom RPC Network in MetaMask
+
+Open MetaMask → Add Network → Custom RPC.
+
+Enter the following details:
+
+Field	Value
+Network Name	Ganache Local
+RPC URL	http://127.0.0.1:7545
+Chain ID	1337
+Currency Symbol	ETH
+
+Click Save and connect to the network.
+
+Step 3: Import Ganache Account into MetaMask
+
+Copy the Private Key from Ganache.
+
+Open MetaMask → Import Account.
+
+Paste the private key and import.
+
+Ganache account balance will reflect in MetaMask.
+
+Step 4: Transfer Ether Between Ganache Accounts
+
+Select the imported Ganache account.
+
+Enter another Ganache account address.
+
+Transfer ETH and confirm.
+
+Transaction appears instantly due to local blockchain.
+
+Important Notes
+
+Ganache runs on a local blockchain, so transactions work only on the same system.
+
+Public test networks like Sepolia allow transactions across different machines.
+
+Ganache uses a local RPC server (127.0.0.1).
+
+Result
+
+MetaMask was successfully connected to Ganache using a custom RPC network, and Ether transfer between Ganache accounts was completed.
+
+Conclusion
+
+MetaMask allows interaction with both public test networks and local blockchains. Ganache provides a fast and secure environment for testing Ethereum transactions and smart contracts without real Ether.
+
+If you want, I can:
+
+Shorten this for lab record writing
+
+Convert it into PPT slides
+
+Add screenshots explanation
+
+Add a smart contract deployment section using Remix
